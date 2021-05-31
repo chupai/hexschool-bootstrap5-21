@@ -1,0 +1,22 @@
+@each $color, $value in $theme-colors {
+  .btn-#{$color} {
+    color: $secondary;
+  }
+}
+
+.btn-primary:hover {
+  background: $danger;
+  color: $white;
+}
+
+.btn-outline-secondary:hover {
+  background: $primary;
+  border-color: $primary;
+  color: $secondary;
+}
+
+@each $color, $value in $theme-colors {
+  .btn-icon-hover-#{$color}:hover > .icon {
+    color: $value;
+  }
+}

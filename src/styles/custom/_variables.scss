@@ -1,0 +1,122 @@
+// Color system
+
+// gray-color-variables
+$white: #fff !default;
+$gray-100: #f8f9fa !default;
+$gray-200: #eeeeee;
+$gray-600: #858377;
+$gray-800: #373a3c;
+$gray-900: #494846;
+$black: $gray-900;
+
+// theme-color-variables
+$primary: #ffdf65;
+$secondary: $gray-600 !default;
+$success: #198754 !default;
+$info: #e8e8db;
+$warning: #ffc107 !default;
+$danger: #ff785e;
+$light: $gray-100 !default;
+$dark: #636057;
+
+// theme-colors-map
+$theme-colors: (
+  'primary': $primary,
+  'secondary': $secondary,
+  'success': $success,
+  'info': $info,
+  'warning': $warning,
+  'danger': $danger,
+  'light': $light,
+  'dark': $dark,
+  'black': $black,
+);
+
+// Spacing
+
+// spacer-variables-maps
+$spacer: 1rem !default;
+$spacers: (
+  0: 0,
+  px: 1px,
+  1: $spacer * 0.25,
+  2: $spacer * 0.5,
+  3: $spacer * 0.75,
+  4: $spacer,
+  5: $spacer * 1.25,
+  6: $spacer * 1.5,
+  7: $spacer * 1.75,
+  8: $spacer * 2,
+  9: $spacer * 2.25,
+  10: $spacer * 2.5,
+  11: $spacer * 2.75,
+  12: $spacer * 3,
+  14: $spacer * 3.5,
+  16: $spacer * 4,
+);
+
+// Body
+
+// Settings for the `<body>` element.
+$body-bg: $white !default;
+$body-color: $gray-900 !default;
+$body-text-align: null !default;
+
+// Paragraphs
+
+// p element.
+$paragraph-margin-bottom: 0;
+
+// Components
+
+// border-radius-variables
+$border-radius-lg: 0.5rem;
+$border-radius-pill: 50rem !default;
+
+// Font
+
+// font-variables
+$font-family-sans-serif: 'Noto Sans TC', sans-serif;
+$font-family-display: 'Baloo Tamma 2', 'Noto Sans TC', cursive;
+
+$font-size-base: 1rem !default;
+
+// Buttons
+
+// btn-variables
+$btn-border-radius: $border-radius-pill;
+$btn-border-radius-sm: $border-radius-pill;
+$btn-border-radius-lg: $border-radius-pill;
+
+$btn-padding-y-lg: $spacer * 0.75;
+
+// Forms
+
+// form-input-variables
+$input-bg: #f7f7f7;
+$input-border-width: 0;
+
+// form-select-variables
+$form-select-color: #999999;
+$form-select-indicator-color: $gray-800 !default;
+$form-select-indicator: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 9.6 16'><path fill='#{$form-select-indicator-color}' d='M12.8,6.4H3.2L8,0ZM3.2,9.6h9.6L8,16Z' transform='translate(-3.2)'/></svg>");
+
+// Cards
+
+// card-variables
+$card-border-radius: $border-radius-lg;
+
+// Accordion
+
+// accordion-variables
+$accordion-bg: $body-bg !default;
+$accordion-button-active-bg: $accordion-bg;
+$accordion-button-active-color: $dark;
+
+$accordion-button-icon: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20' fill='#{$black}'><path fill-rule='evenodd' d='M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z' clip-rule='evenodd'/></svg>");
+$accordion-button-active-icon: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20' fill='#{$black}'><path fill-rule='evenodd' d='M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z' clip-rule='evenodd'/></svg>");
+
+// Tooltips
+
+// tooltip-variables
+$tooltip-color: $primary;

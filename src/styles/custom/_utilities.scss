@@ -1,0 +1,114 @@
+$utilities: map-merge(
+  $utilities,
+  (
+    'rounded': (
+      responsive: true,
+      property: border-radius,
+      class: rounded,
+      values: (
+        null: $border-radius,
+        0: 0,
+        1: $border-radius-sm,
+        2: $border-radius,
+        3: $border-radius-lg,
+        4: 2rem,
+        circle: 50%,
+        pill: $border-radius-pill,
+      ),
+    ),
+    'width': (
+      responsive: true,
+      property: width,
+      class: w,
+      values: (
+        25: 25%,
+        50: 50%,
+        75: 75%,
+        100: 100%,
+        auto: auto,
+        0: 0,
+        1: 0.25rem,
+        2: 0.5rem,
+        3: 0.75rem,
+        4: 1rem,
+        5: 1.25rem,
+        6: 1.5rem,
+      ),
+    ),
+    'height': (
+      responsive: true,
+      property: height,
+      class: h,
+      values: (
+        25: 25%,
+        50: 50%,
+        75: 75%,
+        100: 100%,
+        auto: auto,
+        0: 0,
+        1: 0.25rem,
+        2: 0.5rem,
+        3: 0.75rem,
+        4: 1rem,
+        5: 1.25rem,
+        6: 1.5rem,
+      ),
+    ),
+    'letter-spacing': (
+      property: letter-spacing,
+      class: tracking,
+      values: (
+        0: 0,
+        1: 0.0625rem,
+        2: 0.125rem,
+        3: 0.187rem,
+      ),
+    ),
+    'font-family': (
+      property: font-family,
+      class: font,
+      values: (
+        sans: $font-family-sans-serif,
+        display: $font-family-display,
+      ),
+    ),
+    '-font-size': (
+      rfs: true,
+      property: font-size,
+      class: -fs,
+      values: (
+        1: $font-size-base * 0.875,
+        2: $font-size-base * 0.75,
+      ),
+    ),
+    'z-index': (
+      property: z-index,
+      class: z,
+      values: (
+        0: 0,
+        10: 10,
+        20: 10,
+        30: 10,
+        auto: auto,
+      ),
+    ),
+    'text-decoration': (
+      property: text-decoration,
+      class: text-decoration,
+      values: (
+        none,
+      ),
+    ),
+    'object-fit': (
+      property: object-fit,
+      class: object,
+      values: (
+        contain,
+        cover,
+        fill,
+        none,
+        scale-down,
+      ),
+    ),
+  )
+);

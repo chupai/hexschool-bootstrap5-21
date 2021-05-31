@@ -1,0 +1,21 @@
+.nav-tabs {
+  border: none;
+  .nav-link {
+    background: none;
+    border: none;
+    border-radius: none;
+    color: $secondary;
+    &:hover,
+    &:focus {
+      font-weight: $font-weight-bold;
+    }
+  }
+
+  .nav-link.active,
+  .nav-item.show .nav-link {
+    color: $secondary;
+    font-weight: $font-weight-bold;
+    border: none;
+    border-bottom: 2px solid $primary;
+  }
+}
