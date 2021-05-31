@@ -44,7 +44,7 @@ export default {
               data-bs-target="#login"
             >
               登入</button
-            ><button class="btn btn-outline-secondary px-8" type="button">登出</button>
+            ><button class="btn btn-outline-secondary px-8" type="button">註冊</button>
           </div>
         </div>
       </div>
