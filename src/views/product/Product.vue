@@ -50,7 +50,7 @@ export default {
               <p class="h2 font-display fw-bold mt-2">27<span class="h3 fw-bold"> 天</span></p>
             </div>
           </div>
-          <div class="d-flex gap-5 gap-lg-6 text-dark">
+          <div class="d-flex gap-md-6 text-dark justify-content-between justify-content-md-start">
             <div v-tooltip:top="'認證標章'" class="d-flex align-items-center">
               <img
                 src="/src/assets/icons/good01.svg"
