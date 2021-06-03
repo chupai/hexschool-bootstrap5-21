@@ -5,7 +5,7 @@ export default {
 </script>
 
 <template>
-  <div id="comment" class="tab-pane fade">
+  <div id="product-comment" class="tab-pane fade">
     <div class="d-none d-lg-block -fs-1 border-start border-3 border-primary p-4 mb-8">
       只有本專案的贊助者才可以留言哦，如果有任何專案相關的問題，歡迎<a
         href=""

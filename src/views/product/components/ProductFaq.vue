@@ -5,7 +5,7 @@ export default {
 </script>
 
 <template>
-  <div id="faq" class="tab-pane fade">
+  <div id="product-faq" class="tab-pane fade">
     <div class="accordion" id="faqs">
       <div class="accordion-item">
         <h2 class="accordion-header -fs-1 tracking-1" id="q1">

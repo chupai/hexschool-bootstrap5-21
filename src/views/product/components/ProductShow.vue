@@ -5,7 +5,7 @@ export default {
 </script>
 
 <template>
-  <div id="show" class="tab-pane fade show active">
+  <div id="product-show" class="tab-pane fade show active">
     <img
       src="@/assets/images/product/p1.jpg"
       alt="施了魔法的照片"

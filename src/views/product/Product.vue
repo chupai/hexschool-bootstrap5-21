@@ -1,10 +1,20 @@
 <script>
+import { inject } from 'vue';
 import tooltip from '@/directives/tooltip';
 import ProductShow from './components/ProductShow.vue';
 import ProductFaq from './components/ProductFaq.vue';
 import ProductProcess from './components/ProductProcess.vue';
 import ProductComment from './components/ProductComment.vue';
 import ProductForm from './components/ProductForm.vue';
+
+const GRID_BREAKPOINTS = {
+  xs: 0,
+  sm: 576,
+  md: 768,
+  lg: 992,
+  xl: 1200,
+  xxl: 1400,
+};
 
 export default {
   name: 'Product',
@@ -17,6 +27,10 @@ export default {
   },
   directives: {
     tooltip,
+  },
+  setup() {
+    const windowWidth = inject('windowWidth');
+    return { GRID_BREAKPOINTS, windowWidth };
   },
 };
 </script>
@@ -124,7 +138,7 @@ export default {
             type="button"
             class="nav-link px-4 px-lg-5 py-4 py-lg-6 tracking-1 active"
             data-bs-toggle="tab"
-            data-bs-target="#show"
+            data-bs-target="#product-show"
           >
             專案介紹
           </button>
@@ -134,7 +148,7 @@ export default {
             type="button"
             class="nav-link px-4 px-lg-5 py-4 py-lg-6 tracking-1"
             data-bs-toggle="tab"
-            data-bs-target="#faq"
+            data-bs-target="#product-faq"
           >
             常見問題
           </button>
@@ -144,7 +158,7 @@ export default {
             type="button"
             class="nav-link px-4 px-lg-5 py-4 py-lg-6 tracking-1"
             data-bs-toggle="tab"
-            data-bs-target="#process"
+            data-bs-target="#product-process"
           >
             目前進度
           </button>
@@ -154,7 +168,7 @@ export default {
             type="button"
             class="nav-link px-4 px-lg-5 py-4 py-lg-6 tracking-1"
             data-bs-toggle="tab"
-            data-bs-target="#comment"
+            data-bs-target="#product-comment"
           >
             留言
           </button>
@@ -173,7 +187,7 @@ export default {
             <product-process></product-process>
             <product-comment></product-comment>
           </div>
-          <product-form class="d-none d-lg-block"></product-form>
+          <product-form v-if="GRID_BREAKPOINTS.lg <= windowWidth"></product-form>
         </div>
         <div class="col-lg-4 mt-8 mt-lg-0">
           <aside>
@@ -265,7 +279,7 @@ export default {
           </aside>
         </div>
         <div class="col-12 d-block d-lg-none">
-          <product-form></product-form>
+          <product-form v-if="GRID_BREAKPOINTS.lg > windowWidth"></product-form>
         </div>
       </div>
     </div>

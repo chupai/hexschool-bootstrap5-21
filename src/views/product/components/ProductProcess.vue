@@ -5,7 +5,7 @@ export default {
 </script>
 
 <template>
-  <div id="process" class="tab-pane fade">
+  <div id="product-process" class="tab-pane fade">
     <div class="card overflow-hidden mb-4">
       <div class="row gx-0">
         <div class="col-5 col-lg-3">
