@@ -25,16 +25,16 @@ export default {
   <section class="py-4 py-lg-12 bg-light">
     <div class="container">
       <span class="badge bg-secondary px-4 mb-1"> 魔法科技 </span>
-      <h2 class="fw-bold mb-6 tracking-3">拍出會動的照片｜LivePhotos 魔法拍立得</h2>
+      <h1 class="h2 fw-bold mb-6 tracking-3">拍出會動的照片｜LivePhotos 魔法拍立得</h1>
       <div class="row">
-        <div class="col-12 col-lg-7 mb-4 mb-lg-0">
+        <div class="col-lg-7 mb-4 mb-lg-0">
           <img
             src="@/assets/images/product/image.jpg"
             alt="拍出會動的照片｜LivePhotos 魔法拍立得"
             class="img-fluid rounded-4"
           />
         </div>
-        <div class="col-12 col-lg-5">
+        <div class="col-lg-5">
           <span class="-fs-1 text-dark font-display"> 目標 $600,000 </span>
           <p class="h2 font-display fw-bold mt-2">$280,047</p>
           <div class="progress rounded-pill" style="">
@@ -166,7 +166,7 @@ export default {
   <section class="border-top border-1 border-info">
     <div class="container py-8 py-lg-12">
       <div class="row">
-        <div class="col-12 col-lg-8">
+        <div class="col-lg-8">
           <div class="tab-content">
             <product-show></product-show>
             <product-faq></product-faq>
@@ -175,7 +175,7 @@ export default {
           </div>
           <product-form class="d-none d-lg-block"></product-form>
         </div>
-        <div class="col-12 col-lg-4 mt-8 mt-lg-0">
+        <div class="col-lg-4 mt-8 mt-lg-0">
           <aside>
             <div class="border border-2 border-light rounded-3 p-4 mb-8">
               <div class="d-flex align-items-center mb-4">
@@ -247,7 +247,7 @@ export default {
                     <span class="tracking-2">限時優惠</span>
                     <span class="font-display">2 days 20:05:20</span>
                   </div>
-                  <h5 class="card-title tracking-3 fw-bold">買一送一，只有兩百組別錯過</h5>
+                  <h3 class="h5 card-title tracking-3 fw-bold">買一送一，只有兩百組別錯過</h3>
                   <p class="card-subtitle fs-4 font-display fw-bold">NT$ 1600</p>
                   <div class="d-flex gap-2 mb-1">
                     <span class="badge -fs-2 bg-info text-secondary px-4 mb-1">已被贊助88次</span>

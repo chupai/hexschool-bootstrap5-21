@@ -17,7 +17,7 @@ export default {
         </div>
         <div class="col-7 col-lg-9">
           <div class="p-4">
-            <h6 class="fw-bold tracking-1">高雄體驗會｜免費參加送帆布袋</h6>
+            <h4 class="h6 fw-bold tracking-1">高雄體驗會｜免費參加送帆布袋</h4>
             <p class="-fs-1 font-display text-secondary mb-2">2021-6-20</p>
             <p class="d-none d-lg-block -fs-1 tracking-1 text-secondary mb-4">
               大家安安！謝謝每位贊助者的熱情支持，讓我們離夢想更進一步，我們將於下個月舉辦體驗會，歡迎各位踴躍參與！
@@ -38,7 +38,7 @@ export default {
         </div>
         <div class="col-7 col-lg-9">
           <div class="p-4">
-            <h6 class="fw-bold tracking-1">高雄體驗會｜免費參加送帆布袋</h6>
+            <h4 class="h6 fw-bold tracking-1">高雄體驗會｜免費參加送帆布袋</h4>
             <p class="-fs-1 font-display text-secondary mb-2">2021-6-20</p>
             <p class="d-none d-lg-block -fs-1 tracking-1 text-secondary mb-4">
               大家安安！謝謝每位贊助者的熱情支持，讓我們離夢想更進一步，我們將於下個月舉辦體驗會，歡迎各位踴躍參與！
@@ -59,7 +59,7 @@ export default {
         </div>
         <div class="col-7 col-lg-9">
           <div class="p-4">
-            <h6 class="fw-bold tracking-1">高雄體驗會｜免費參加送帆布袋</h6>
+            <h4 class="h6 fw-bold tracking-1">高雄體驗會｜免費參加送帆布袋</h4>
             <p class="-fs-1 font-display text-secondary mb-2">2021-6-20</p>
             <p class="d-none d-lg-block -fs-1 tracking-1 text-secondary mb-4">
               大家安安！謝謝每位贊助者的熱情支持，讓我們離夢想更進一步，我們將於下個月舉辦體驗會，歡迎各位踴躍參與！

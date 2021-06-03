@@ -13,7 +13,7 @@ export default {
   <header class="bg-white border-bottom border-primary border-4 sticky-top">
     <nav class="navbar navbar-expand-lg navbar-light">
       <div class="container">
-        <a class="navbar-brand">
+        <a class="navbar-brand" href="#">
           <img src="/src/assets/images/logo.jpg" alt="拼拼" width="111" height="40" />
         </a>
         <button
