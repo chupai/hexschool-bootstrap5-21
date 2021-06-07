@@ -253,29 +253,33 @@ export default {
             >
               選擇一個方案來支持
             </h5>
-            <div class="d-flex flex-column gap-4">
-              <div class="card border-info overflow-hidden" v-for="n of 3" :key="n">
-                <img src="@/assets/images/product/plan.jpg" class="card-img-top" alt="團購方案" />
-                <div class="card-body">
-                  <div class="d-flex justify-content-between border-bottom border-info pb-2 mb-2">
-                    <span class="tracking-2">限時優惠</span>
-                    <span class="font-display">2 days 20:05:20</span>
+            <ul class="rest-list d-flex flex-column gap-4">
+              <li v-for="n of 3" :key="n">
+                <div class="card border-info overflow-hidden">
+                  <img src="@/assets/images/product/plan.jpg" class="card-img-top" alt="團購方案" />
+                  <div class="card-body">
+                    <div class="d-flex justify-content-between border-bottom border-info pb-2 mb-2">
+                      <span class="tracking-2">限時優惠</span>
+                      <span class="font-display">2 days 20:05:20</span>
+                    </div>
+                    <h3 class="h5 card-title tracking-3 fw-bold">買一送一，只有兩百組別錯過</h3>
+                    <p class="card-subtitle fs-4 font-display fw-bold">NT$ 1600</p>
+                    <div class="d-flex gap-2 mb-1">
+                      <span class="badge -fs-2 bg-info text-secondary px-4 mb-1">已被贊助88次</span>
+                      <span class="badge -fs-2 bg-secondary px-4 mb-1"
+                        >限量<span class="text-primary">200</span>個</span
+                      >
+                    </div>
+                    <p class="card-text text-secondary tracking-1 mb-4">
+                      受就相法大夠局來畫師我只這然以放灣得的後人心年我物我年，或人有動與次出女親構算帶年行著所間女。
+                    </p>
+                    <button class="btn btn-primary tracking-1 fw-bold w-100 py-3">
+                      贊助此專案
+                    </button>
                   </div>
-                  <h3 class="h5 card-title tracking-3 fw-bold">買一送一，只有兩百組別錯過</h3>
-                  <p class="card-subtitle fs-4 font-display fw-bold">NT$ 1600</p>
-                  <div class="d-flex gap-2 mb-1">
-                    <span class="badge -fs-2 bg-info text-secondary px-4 mb-1">已被贊助88次</span>
-                    <span class="badge -fs-2 bg-secondary px-4 mb-1"
-                      >限量<span class="text-primary">200</span>個</span
-                    >
-                  </div>
-                  <p class="card-text text-secondary tracking-1 mb-4">
-                    受就相法大夠局來畫師我只這然以放灣得的後人心年我物我年，或人有動與次出女親構算帶年行著所間女。
-                  </p>
-                  <button class="btn btn-primary tracking-1 fw-bold w-100 py-3">贊助此專案</button>
                 </div>
-              </div>
-            </div>
+              </li>
+            </ul>
           </aside>
         </div>
         <div class="col-12 d-block d-lg-none">
