@@ -6,7 +6,7 @@ export default {
 
 <template>
   <div id="product-process" class="tab-pane fade">
-    <ul class="rest-list">
+    <ul class="list-unstyled">
       <li class="mb-4">
         <div class="card overflow-hidden">
           <div class="row gx-0">

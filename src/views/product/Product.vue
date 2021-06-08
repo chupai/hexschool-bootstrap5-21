@@ -253,7 +253,7 @@ export default {
             >
               選擇一個方案來支持
             </h5>
-            <ul class="rest-list d-flex flex-column gap-4">
+            <ul class="list-unstyled d-flex flex-column gap-4">
               <li v-for="n of 3" :key="n">
                 <div class="card border-info overflow-hidden">
                   <img src="@/assets/images/product/plan.jpg" class="card-img-top" alt="團購方案" />

@@ -13,7 +13,7 @@ export default {
         >聯絡提案人</a
       >！
     </div>
-    <ul class="rest-list">
+    <ul class="list-unstyled">
       <li class="mb-4">
         <div class="card">
           <div class="card-body">

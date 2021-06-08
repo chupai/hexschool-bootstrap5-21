@@ -50,15 +50,3 @@
 @import 'bootstrap/scss/utilities/api';
 
 @import '_google-fonts.scss';
-
-ul {
-  &.rest-list {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-  }
-  > li {
-    padding: 0;
-    margin: 0;
-  }
-}
